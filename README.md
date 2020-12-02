@@ -13,14 +13,15 @@ npm install --save createistic-designsystem
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import MyComponent from 'createistic-designsystem'
-import 'createistic-designsystem/dist/index.css'
+import Button from "createistic-designsystem";
+// Import the below once into the entry index file to get styles
+import "createistic-designsystem/dist/index.css";
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button text="click me" />;
   }
 }
 ```
