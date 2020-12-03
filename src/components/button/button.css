@@ -9,6 +9,7 @@
   width: 200px;
   font-family: "Work Sans", sans-serif;
   text-align: center;
+  cursor: pointer;
 }
 
 .secondary {
@@ -20,6 +21,7 @@
   width: 200px;
   font-family: "Work Sans", sans-serif;
   text-align: center;
+  cursor: pointer;
 }
 
 .outline {
@@ -31,4 +33,5 @@
   width: 200px;
   font-family: "Work Sans", sans-serif;
   text-align: center;
+  cursor: pointer;
 }
