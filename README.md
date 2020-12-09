@@ -26,6 +26,8 @@ class Example extends Component {
 }
 ```
 
+Example hosted at https://createistic.github.io/designsystem/  
+
 ## License
 
 MIT © [Shaun-Farrell](https://github.com/Shaun-Farrell)
