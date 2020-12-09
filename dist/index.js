@@ -20,5 +20,19 @@ Button.defaultProps = {
   }
 };
 
+var styles$1 = {"textInput":"_1D7yh"};
+
+var Input = function Input(_ref) {
+  var cssClass = _ref.cssClass,
+      placeholder = _ref.placeholder;
+  var classString = cssClass || styles$1.textInput;
+  return React.createElement("input", {
+    className: classString,
+    type: "text",
+    placeholder: placeholder
+  });
+};
+
 exports.Button = Button;
+exports.Input = Input;
 //# sourceMappingURL=index.js.map

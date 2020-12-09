@@ -1,2 +1,3 @@
 import { Button } from "./components/button";
-export { Button };
+import { Input } from "./components/input";
+export { Button, Input };
