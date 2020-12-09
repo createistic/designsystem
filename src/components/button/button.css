@@ -3,7 +3,7 @@
 
 .primary {
   padding: 0.5em;
-  border: 2px solid #000;
+  border: 2px solid #ccc;
   background-color: #fec483;
   font-size: 1.4em;
   font-family: "Work Sans", sans-serif;
@@ -15,7 +15,7 @@
 
 .secondary {
   padding: 0.5em;
-  border: 2px solid #000;
+  border: 2px solid #ccc;
   background-color: #000;
   color: white;
   font-size: 1.4em;
@@ -28,8 +28,34 @@
 
 .outline {
   padding: 0.5em;
-  border: 2px solid #000;
+  border: 2px solid #ccc;
   background-color: #fff;
+  color: #000;
+  font-size: 1.4em;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.dark {
+  padding: 0.5em;
+  border: 2px solid #ccc;
+  background-color: #3f3d56;
+  color: #fff;
+  font-size: 1.4em;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.light {
+  padding: 0.5em;
+  border: 2px solid #ccc;
+  background-color: #d0cde1;
   color: #000;
   font-size: 1.4em;
   font-family: "Work Sans", sans-serif;

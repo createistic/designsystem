@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "createistic-designsystem";
+import { Input } from "createistic-designsystem";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
@@ -30,6 +31,12 @@ const App = () => {
         <Button text="click me" type="secondary" />
       </ComponentWrapper>
       <ComponentWrapper>
+        <Button text="click me" type="dark" />
+      </ComponentWrapper>
+      <ComponentWrapper>
+        <Button text="click me" type="light" />
+      </ComponentWrapper>
+      <ComponentWrapper>
         <Button text="click me" type="outline" />
       </ComponentWrapper>
       <ComponentWrapper>
@@ -40,7 +47,24 @@ const App = () => {
         <CodeBlock
           codeString={'<Button type="secondary" title="click me" />'}
         />
+        <CodeBlock codeString={'<Button type="dark" title="click me" />'} />
+        <CodeBlock codeString={'<Button type="light" title="click me" />'} />
         <CodeBlock codeString={'<Button type="outline" title="click me" />'} />
+      </ComponentWrapper>
+      <ComponentWrapper>
+        <hr />
+      </ComponentWrapper>
+      <ComponentWrapper>
+        <h1>Input</h1>
+      </ComponentWrapper>
+      <ComponentWrapper>
+        <Input placeholder="Enter Text" />
+      </ComponentWrapper>
+      <ComponentWrapper>
+        <h2>Code examples</h2>
+      </ComponentWrapper>
+      <ComponentWrapper>
+        <CodeBlock codeString={'<Input placeholder="Enter Text" />'} />
       </ComponentWrapper>
       <ComponentWrapper>
         <hr />

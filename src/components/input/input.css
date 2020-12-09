@@ -1,0 +1,7 @@
+/* add css module styles here (optional) */
+
+.textInput {
+  border: solid 3px #fff;
+  font-size: 1.3em;
+  padding: 5px;
+}
